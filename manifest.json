@@ -1,0 +1,16 @@
+{
+	"name": "HTTP GET TEST",
+	"description": "sockets API を使って HTTP GET するテストアプリ",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"sockets": {
+		"tcp": {
+			"connect": ["*"]
+		}
+	}
+}
